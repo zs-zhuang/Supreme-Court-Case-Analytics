@@ -1,0 +1,17 @@
+Column,Meaning,Observed effect
+majVotes,Number of majority votes in the case,ρ = −0.283 → cases with more majority votes tend to have slightly shorter durations
+naturalCourt,Identifier for the Supreme Court composition (court number or session),ρ = 0.256 → later courts/terms associated with longer durations
+term,Supreme Court term when case was decided,ρ = 0.254 → cases in later terms have slightly longer durations
+precedentAlteration,Whether the case altered precedent,r = −0.251 → cases that altered precedent were slightly shorter
+voteUnclear,Whether the vote was unclear,r = 0.130 → unclear votes associated with slightly longer duration
+caseDispositionUnusual,Whether the case disposition was unusual,r = 0.098 → very small positive effect
+threeJudgeFdc,Three-judge federal district court involvement,r = 0.061 → very small positive effect
+issue,Specific legal issue category of the case,ε² = 0.085 → small effect; some issues systematically take longer/shorter
+decisionType,"Type of decision issued (majority, per curiam, etc.)",ε² = 0.077 → small effect
+lawSupp,Supplemental law category applied,ε² = 0.063 → small effect
+petitioner,Name/type of petitioner,ε² = 0.042 → very small effect
+issueArea,Broader issue area of the case,ε² = 0.036 → very small effect
+lawType,"Type of law applied (constitutional, statutory, etc.)",ε² = 0.035 → very small effect
+jurisdiction,Jurisdiction from which the case came,ε² = 0.002 → negligible effect
+decisionDirection,Direction of the decision (liberal/conservative),ε² = 0.001 → negligible effect
+lawMinor,Minor law classification,ε² = 0.000 → negligible effect
