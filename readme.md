@@ -1,6 +1,6 @@
 Supreme-Court-Case-Analytics
 
-![Alt text](https://github.com/zs-zhuang/Supreme-Court-Case-Analytics/blob/main/results/caseNumber_per_area_over_time.jpg)
+![Alt text](https://github.com/zs-zhuang/Supreme-Court-Case-Analytics/blob/main/results/case_count_per_area_over_time.jpg)
 ![Alt text](https://github.com/zs-zhuang/Supreme-Court-Case-Analytics/raw/main/results/case_disposition_by_area.jpg)
 ![Alt text](https://github.com/zs-zhuang/Supreme-Court-Case-Analytics/raw/main/results/majOpinWriter_workload_vs_year_heatmap.jpg)
 ![Alt text]([https://github.com/zs-zhuang/Supreme-Court-Case-Analytics/blob/main/results/case_duration_difference_posthoc_by_area.jpg)
