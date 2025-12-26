@@ -55,7 +55,6 @@ Overall, case duration is influenced by several procedural and case characterist
 - Reversal rate of lower court decisions and variation across issue areas  
 - Liberal vs. conservative leanings and trends over time  
 - Petitioner success rates, unanimous vs. close votes, and decision type (Opinion of the Court vs. Decree)  
-- Correlations between decision trends and issue area
 
 ---
 
