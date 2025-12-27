@@ -7,7 +7,7 @@
 ![Alt text](https://github.com/zs-zhuang/Supreme-Court-Case-Analytics/blob/main/results/case_duration_difference_posthoc_by_area.jpg).
 ![Alt text](https://github.com/zs-zhuang/Supreme-Court-Case-Analytics/raw/main/results/tbl_case_duration_correlation_interpretation.jpeg)
 
-These scripts explores U.S. Supreme Court behavior and trends between the year 1946 to 2024 using the Modern Supreme Court Database (SCDB) housed at Penn State University. 
+These scripts explore U.S. Supreme Court behavior and trends between the year 1946 to 2024 using the Modern Supreme Court Database (SCDB) housed at Penn State University. 
 
 Here is a detailed breakdown of what each script does
 
