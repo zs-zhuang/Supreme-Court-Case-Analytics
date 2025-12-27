@@ -15,7 +15,7 @@ Here is a detailed breakdown of what each script does
 
 ### **Script: download_SCDB.ipynb**  
 **Data Used:** The CSV files associated with SCDB provided at [SCDB Data](https://scdb.la.psu.edu/data/)  
-**Purpose:** This script will download SCDB as 8 separate CSV files. It includes both case- and justice-centered data. Each case includes data organized by citations, dockets, issues, and issues including split vote. Each CSV file is stored in a separate directory inside the `data` directory with self-explanatory file names.
+**Purpose:** This script will download SCDB as 8 separate CSV files. It includes both case- and justice-centered data. Each case includes data organized by citations, dockets, issues with and without split votes. Each CSV file is stored in a separate directory inside the `data` directory with self-explanatory file names.
 
 ---
 
