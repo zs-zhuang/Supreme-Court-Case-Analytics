@@ -36,15 +36,15 @@ Here is a detailed breakdown of what each script does
 **Purpose:** Preliminary data exploration:
 - Check data format, column names, size, etc.  
 - Examine the 14 issue areas: which have higher case loads, and how did popularity change over time?  
-- Compute average case duration since 1946 and examine distribution (normality check).  
-- Test whether average case duration differs across issue areas (Kruskal–Wallis test + post-hoc test) and identify which areas drive delays.  
+- Compute average case durations since 1946 and examine the distributions (normality check).  
+- Test whether average case duration differs across issue areas (Kruskal–Wallis test + post-hoc test + effect size) and identify which areas drive delays.  
 
-Optional SQL alternatives are included for case popularity analysis; case duration analysis uses pandas for better date handling. Results are presented as tables, plots, and heat maps.
+Optional SQL alternatives are included for case popularity analysis. Case duration analysis uses pandas for better date handling. Results are presented as tables, plots, and heat maps.
 
 **Additional Analysis:** Full correlation and group-comparison analysis examines relationships between case duration and various case characteristics:
 - Numeric: `majVotes` (ρ = −0.283), `naturalCourt` (ρ = 0.256), `term` (ρ = 0.254)  
-- Binary: `precedentAlteration` (r = −0.251), others smaller effects  
-- Categorical: `issue`, `decisionType`, `lawSupp` small but significant effects; other factors smaller/negligible  
+- Binary: `precedentAlteration` (r = −0.251). Other factors have smaller effects. 
+- Categorical: `issue`, `decisionType`, `lawSupp` have small but significant effects on case duration. Other factors have smaller or negligible effects.  
 
 Overall, case duration is influenced by several procedural and case characteristics, with the strongest effects observed for majority votes, natural court, term, precedent alteration, and issue-related factors.
 
@@ -52,10 +52,10 @@ Overall, case duration is influenced by several procedural and case characterist
 
 ### **Script: case_decision_trend.ipynb**  
 **Data Used:** `legal_sc.db` (Case-centered, organized by citations)  
-**Purpose:** Examines trends in Supreme Court decisions:
+**Purpose:** Examines patterns and trends in Supreme Court decisions:
 - Reversal rate of lower court decisions and variation across issue areas  
 - Liberal vs. conservative leanings and trends over time  
-- Petitioner success rates, unanimous vs. close votes, and decision type (Opinion of the Court vs. Decree)  
+- Petitioner success rates, unanimous vs. close votes, and decision type (Opinion of the Court vs. Decree etc.)  
 
 ---
 
