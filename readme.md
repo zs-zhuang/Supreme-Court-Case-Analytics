@@ -46,7 +46,7 @@ Optional SQL alternatives are included for case popularity analysis. Case durati
 - Binary: `precedentAlteration` (r = −0.251). Other factors have smaller effects. 
 - Categorical: `issue`, `decisionType`, `lawSupp` have small but significant effects on case duration. Other factors have smaller or negligible effects.  
 
-Overall, case duration is influenced by several procedural and case characteristics, with the strongest effects observed for majority votes, natural court, term, precedent alteration, and issue-related factors.
+Overall, case duration is influenced by several procedural and case characteristics, with the strongest effects observed for the size of the majority, natural court, term, whether precedent was alterated, and issue-specific factors.
 
 ---
 
