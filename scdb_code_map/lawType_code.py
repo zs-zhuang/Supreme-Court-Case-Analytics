@@ -1,0 +1,11 @@
+# Auto-generated mapping: LAW_TYPE_MAP
+# Do not edit by hand
+
+LAW_TYPE_MAP = {1: 'Constitution',
+ 2: 'Constitutional Amendment',
+ 3: 'Federal Statute',
+ 4: 'Court Rules',
+ 5: 'Other',
+ 6: 'Infrequently litigated statutes',
+ 8: 'State or local law or regulation',
+ 9: 'No Legal Provision'}
