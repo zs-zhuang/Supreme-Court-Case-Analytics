@@ -71,7 +71,6 @@ Overall, case duration is influenced by several procedural and case characterist
 **Purpose:** Explores workload assignment for justices:
 - Which justice wrote the most majority opinions overall and by issue area  
 - Number of opinions per justice per year, most active years, and changes over time  
-- Results presented as tables, bar plots, and heat maps
 
 ---
 
@@ -80,7 +79,8 @@ Overall, case duration is influenced by several procedural and case characterist
 **Purpose:** Explores most cited laws in supreme court cases:
 - Which laws are cited most often?
 - For the most cited laws, whether decisions have become more or less liberal over time
-- Examines how the Supreme Court’s conservative decisions vary across different types of legal authority
+- Examines how the Supreme Court’s conservative decisions vary across different types of legal authority (e.g., statutory, judicial review, administrative)
+- Investigates whether the Supreme Court is more ideologically divided when interpreting the Constitution compared to Federal Statutes across various issue areas.
 
 
 
