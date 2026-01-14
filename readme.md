@@ -80,7 +80,8 @@ Overall, case duration is influenced by several procedural and case characterist
 - Which laws are cited most often?
 - For the most cited laws, whether decisions have become more or less liberal over time
 - Examines how the Supreme Court’s conservative decisions vary across different types of legal authority (e.g., statutory, judicial review, administrative)
-- Investigates whether the Supreme Court is more ideologically divided when interpreting the Constitution compared to Federal Statutes across various issue areas.
+- Investigates whether the Supreme Court is more ideologically divided when interpreting the Constitution compared to Federal Statutes across various issue areas
+- Identified the laws whose precedent is most frequently altered
 
 
 
