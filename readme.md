@@ -41,48 +41,49 @@ Here is a detailed breakdown of what each script does
 
 ### **Script: case_count_duration.ipynb**  
 **Data Used:** `legal_sc.db` (Case-centered, organized by citations)  
-**Purpose:** explores case issue areas and durations: 
-- Examine the 14 issue areas: which have higher case loads, and how did popularity change over time?  
-- Compute average case durations since 1946 and examine the distributions (normality check).  
-- Test whether average case duration differs across issue areas (Kruskal–Wallis test + post-hoc test + effect size) and identify which areas drive delays.  
+**Purpose:** explores case popularity, issue areas, durations and general trends: 
+- Examines the 14 issue areas to identify which have higher caseloads and how their popularity has changed over time 
+- Computes average case durations since 1946 and plot the distributions (normality check)
+- Tests whether average case duration differs across issue areas (Kruskal–Wallis test + post-hoc test + effect size) and identifies which areas drive delays
+- Shows total counts of Supreme Court oral arguments by month, highlighting peak months (October–April) and summer recess
 
-Optional SQL alternatives are included for case popularity analysis. Case duration analysis uses pandas for better date handling. Results are presented as tables, plots, and heat maps.
+Optional SQL alternatives are included for case popularity analysis. Case duration analysis uses pandas for better date handling. Results are presented as tables, plots, and heat maps
 
 **Additional Analysis:** Full correlation and group-comparison analysis examines relationships between case duration and various case characteristics:
 - Numeric: `majVotes` (ρ = −0.283), `naturalCourt` (ρ = 0.256), `term` (ρ = 0.254)  
 - Binary: `precedentAlteration` (r = −0.251). Other factors have smaller effects. 
-- Categorical: `issue`, `decisionType`, `lawSupp` have small but significant effects on case duration. Other factors have smaller or negligible effects.  
+- Categorical: `issue`, `decisionType`, `lawSupp` have small but significant effects on case duration. Other factors have smaller or negligible effects
 
-Overall, case duration is influenced by several procedural and case characteristics, with the strongest effects observed for the size of the majority, the natural court, the term, whether precedent was altered, and what specific issues were involved.
+Overall, case duration is influenced by several characteristics, with the strongest effects observed for the size of the majority, the natural court, the term, whether precedent was altered, and what specific issues were involved
 
 ---
 
 ### **Script: case_decision_trend.ipynb**  
 **Data Used:** `legal_sc.db` (Case-centered, organized by citations)  
 **Purpose:** Examines patterns and trends in Supreme Court decisions:
-- Reversal rate of lower court decisions and variation across issue areas  
-- Liberal vs. conservative leanings and trends over time  
-- Petitioner success rates, unanimous vs. close votes, and decision type (Opinion of the Court vs. Decree etc.)  
+- Examines reversal rates of lower court decisions and variation across issue areas  
+- Tracks ideological trends, comparing liberal and conservative leanings over time  
+- Analyzes petitioner success rates, vote margins (unanimous vs. close), and decision types (Opinion of the Court, Decree, etc.)  
 
 ---
 
 ### **Script: case_majopinwriter.ipynb**  
 **Data Used:** `legal_sc.db` (Case-centered, organized by citations)  
 **Purpose:** Explores workload assignment for justices:
-- Which justice wrote the most majority opinions overall and by issue area  
-- Number of opinions per justice per year, most active years, and changes over time  
+- Identifies which justice wrote the most majority opinions overall and by issue area  
+- Tracks the number of opinions per justice per year, highlighting the most active years and changes over time  
 
 ---
 
 ### **Script: case_lawType.ipynb**  
 **Data Used:** `legal_sc.db` (Case-centered, organized by citations)  
-**Purpose:** Explores most cited laws in supreme court cases:
-- Which laws are cited most often?
-- For the most cited laws, whether decisions have become more or less liberal over time
-- Examines how the Supreme Court’s conservative decisions vary across different types of legal authority (e.g., statutory, judicial review, administrative)
-- Investigates whether the Supreme Court is more ideologically divided when interpreting the Constitution compared to Federal Statutes across various issue areas
-- Identified the laws whose precedent is most frequently altered
-- Analyze how lower court type and law category affect Supreme Court reversal rates
+**Purpose:** Explore Supreme Court law citations and decision patterns:
+- Identifies the most frequently cited laws
+- Analyzes whether decisions involving the most cited laws have become more or less liberal over time
+- Examines whether the Court leans conservative or liberal based on the primary legal authority cited in the case (e.g., statutory, judicial review, administrative)
+- Investigates whether the Court is more ideologically divided (e.g., 5–4 or 6–3 votes) when interpreting Federal Statutes compared to the Constitution (also repeats the analysis for separate issue areas)
+- Determines which laws are most likely to have their precedents altered
+- Analyzes how lower court type and law category affect Supreme Court reversal rates
 
 
 
