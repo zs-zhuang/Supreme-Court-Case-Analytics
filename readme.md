@@ -63,7 +63,8 @@ Overall, case duration is influenced by several characteristics, with the strong
 **Purpose:** Examines patterns and trends in Supreme Court decisions:
 - Examines reversal rates of lower court decisions and variation across issue areas  
 - Tracks ideological trends, comparing liberal and conservative leanings over time  
-- Analyzes petitioner success rates, vote margins (unanimous vs. close), and decision types (Opinion of the Court, Decree, etc.)  
+- Analyzes petitioner success rates, vote margins (unanimous vs. close), and decision types (Opinion of the Court, Decree, etc.)
+- Measures ideological polarization by tracking 5–4 decisions over time, including total counts and percent of 5-4 vote cases per decade
 
 ---
 
@@ -71,7 +72,7 @@ Overall, case duration is influenced by several characteristics, with the strong
 **Data Used:** `legal_sc.db` (Case-centered, organized by citations)  
 **Purpose:** Explores workload assignment for justices:
 - Identifies which justice wrote the most majority opinions overall and by issue area  
-- Tracks the number of opinions per justice per year, highlighting the most active years and changes over time  
+- Track the number of opinions per justice per year, highlighting the most active years and changes over time  
 
 ---
 
