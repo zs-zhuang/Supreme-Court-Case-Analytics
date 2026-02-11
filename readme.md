@@ -46,6 +46,7 @@ Here is a detailed breakdown of what each script does
 - Computes average case durations since 1946 and plot the distributions (normality check)
 - Tests whether average case duration differs across issue areas (Kruskal–Wallis test + post-hoc test + effect size) and identifies which areas drive delays
 - Shows total counts of Supreme Court oral arguments by month, highlighting peak months (October–April) and summer recess
+- check correlation between case duration and length of oral argument (days between first argument and reargument if any, otherwise 0)
 
 Optional SQL alternatives are included for case popularity analysis. Case duration analysis uses pandas for better date handling. Results are presented as tables, plots, and heat maps
 
