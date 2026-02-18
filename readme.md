@@ -66,6 +66,7 @@ Overall, case duration is influenced by several characteristics, with the strong
 - Tracks ideological trends, comparing liberal and conservative leanings over time  
 - Analyzes petitioner success rates, vote margins (unanimous vs. close), and decision types (Opinion of the Court, Decree, etc.)
 - Measures ideological polarization by tracking 5–4 decisions over time, including total counts and percent of 5-4 vote cases per decade
+- Explores Petitioner vs. Respondent win rate in each issue area over time
 
 ---
 
