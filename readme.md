@@ -88,6 +88,13 @@ Overall, case duration is influenced by several characteristics, with the strong
 - Determines which laws are most likely to have their precedents altered
 - Analyzes how lower court type and law category affect Supreme Court reversal rates
 
+---
+
+### **Script: justice_behavior.ipynb**  
+**Data Used:** `legal_sc.db` (Justice-centered, organized by citations)  
+**Purpose:** Explore individual justice's voting behavior:
+- Explore justice agreement networks: Which justices most often vote together?
+
 
 
 
