@@ -75,7 +75,8 @@ Overall, case duration is influenced by several characteristics, with the strong
 **Data Used:** `legal_sc.db` (Case-centered, organized by citations)  
 **Purpose:** Explores workload assignment for justices:
 - Identifies which justice wrote the most majority opinions overall and by issue area  
-- Track the number of opinions per justice per year, highlighting the most active years and changes over time  
+- Tracks the number of opinions per justice per year, highlighting the most active years and changes over time
+- Looks at whether some Supreme Court justices take longer or shorter to issue decisions when they write the majority opinion
 
 ---
 
