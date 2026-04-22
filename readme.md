@@ -96,6 +96,7 @@ Overall, case duration is influenced by several characteristics, with the strong
 **Data Used:** `legal_sc.db` (Justice-centered, organized by citations)  
 **Purpose:** Explore individual justice's voting behavior:
 - Explore justice agreement networks: Which justices most often vote together?
+- Plot ideological shifts over time for individual justice
 
 
 
