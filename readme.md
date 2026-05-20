@@ -97,6 +97,7 @@ Overall, case duration is influenced by several characteristics, with the strong
 **Purpose:** Explore individual justice's voting behavior:
 - Explore justice agreement networks: Which justices most often vote together?
 - Plot ideological shifts over time for individual justice
+- Explores whether increased opinion writing is associated with higher rates of precedent-altering decisions
 
 
 
