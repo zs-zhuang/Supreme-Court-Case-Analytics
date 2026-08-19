@@ -49,7 +49,8 @@ Here is a detailed breakdown of what each script does
 - Shows total counts of Supreme Court oral arguments by month, highlighting peak months (October–April) and summer recess
 - check correlation between case duration and length of oral argument (days between first argument and reargument if any, otherwise 0)
 - Group supreme court issue areas using hierarchical clustering based on similarities in case characteristics (e.g., duration, voting patterns, and decision outcomes) to identify clusters of issues with similar judicial behavior
-
+- Shows the percentage of Supreme Court cases involving a dissent in the lower court over time, highlighting changes in the prevalence of lower-court dissent among cases reaching the Court.
+  
 Optional SQL alternatives are included for case popularity analysis. Case duration analysis uses pandas for better date handling. Results are presented as tables, plots, and heat maps
 
 **Additional Analysis:** Full correlation and group-comparison analysis examines relationships between case duration and various case characteristics:
