@@ -72,6 +72,7 @@ Overall, case duration is influenced by several characteristics, with the strong
 - Measures ideological polarization by tracking 5–4 decisions over time, including total counts and percent of 5-4 vote cases per decade
 - Explores Petitioner vs. Respondent win rate in each issue area over time
 - Examined how often the U.S. Supreme Court alters precedent, how precedent alteration varies across issue areas and voting coalitions, and whether the court become more or less willing to alter precedent over time
+- Tracks changes in Supreme Court judicial consensus and disagreement over time by tracking unanimity rates, vote-split distributions, and average majority support per term.
 
 ---
 
